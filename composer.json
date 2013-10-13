@@ -1,0 +1,32 @@
+{
+    "name": "kraksoft/fb-likebox",
+    "description": "Facebook likebox slider",
+    "keywords": [
+        "kraksoft",
+        "facebook",
+        "likebox"
+    ],
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Piotr Kędra",
+            "email": "kedrap@gmail.com",
+            "homepage": "http://www.kraksoft.pl",
+            "role": "Developer"
+        }
+    ],
+    "type": "component",
+    "require": {
+        "robloach/component-installer": "0.0.*"
+    },
+    "extra": {
+        "component": {
+            "name": "fb-likebox",
+            "files": [
+                "css/*.css",
+                "images/*",
+                "js/*.js"
+            ]
+        }
+    }
+}

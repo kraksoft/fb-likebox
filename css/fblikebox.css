@@ -1,0 +1,31 @@
+.fblikebox {
+    position: fixed;
+    top: 50%;
+    z-index: 200;
+}
+
+.fblikebox.showed {
+    z-index: 1000;
+}
+
+.fblikebox .fblikebox-btn {
+    width: 46px;
+    height: 100%;
+    float: left;
+}
+
+.fblikebox .fblikebox-btn a {
+    display: block;
+    width: 46px;
+    height: 118px;
+    position: absolute;
+    top: 40%;
+    margin-top: -23px;
+    background: url(../images/ico-facebook.png) no-repeat;
+}
+
+.fblikebox .fb-like-box {
+    width: 240px;
+    margin-bottom: 20px;
+    background: #fff;
+}
